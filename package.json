@@ -1,15 +1,16 @@
 {
-  "name": "PlaonderWebsite",
+  "name": "PlaonderSite",
   "version": "1.0.0",
-  "description": "Wow this is my website!",
+  "description": "Wow its the website!",
   "main": "index.js",
-  "author": "Plaonder",
+  "repository": "https://github.com/Plaonder/PlaonderSite.git",
+  "author": "Plaonder <39774970+Plaonder@users.noreply.github.com>",
   "license": "MIT",
   "devDependencies": {
     "vuepress": "^1.9.10"
   },
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "dev": "vuepress dev blog",
+    "build": "vuepress build blog"
   }
 }
