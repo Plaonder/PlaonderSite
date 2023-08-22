@@ -14,12 +14,12 @@ cd blog/.vuepress/dist
 
 git init
 git add -A
-git commit -m 'Deploying!'
+git commit -m "Manual deploy from Plaonder's PC"
 
 # if you are deploying to https://<USERNAME>.github.io
-git push -f git@github.com:plaonder/plaonder.github.io.git master
+# git push -f git@github.com:Plaonder/PlaonderSite.git gh-pages
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
-# git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
+git push -f git@github.com:Plaonder/plaonder.github.io.git gh-pages
 
 cd -
