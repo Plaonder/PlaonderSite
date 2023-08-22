@@ -1,4 +1,4 @@
 module.exports = {
 	title: 'Plaonder',
-	dest: 'public'
+	dest: 'blog/.vuepress/dist'
 }
